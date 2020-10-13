@@ -1,0 +1,32 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "shell",
+			"label": "g++ Build",
+			"command": "/usr/bin/g++",
+			"args": [
+				"-Wall",
+				"-g",
+				"-std=c++17",
+				"${workspaceFolder}/*.cpp",
+				"-I${workspaceFolder}/include",
+				"-o",
+				"${workspaceFolder}/output.out"
+			],
+			"options": {
+				"cwd": "/usr/bin"
+			},
+			"problemMatcher": [
+				"$gcc"
+			],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			},
+			"presentation": {
+				"clear": true 
+			}
+		}
+	]
+}

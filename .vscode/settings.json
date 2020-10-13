@@ -1,0 +1,14 @@
+{
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "files.insertFinalNewline": true,
+    "files.trimTrailingWhitespace": true,
+    "files.trimFinalNewlines": true,
+    "C_Cpp.dimInactiveRegions": true,
+    "C_Cpp.vcFormat.indent.preprocessor": "none",
+    "[cpp]": {
+        "editor.suggest.insertMode": "replace",
+        "editor.semanticHighlighting.enabled": true,
+        "editor.autoClosingBrackets": "always"
+    },
+}
