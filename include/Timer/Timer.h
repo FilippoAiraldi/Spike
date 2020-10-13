@@ -2,14 +2,16 @@
 
 #include "../Result/Result.h"
 
-namespace SpikeTester
+namespace Spike
 {
     namespace Timer
     {
-        static Result GetResult()
+
+        int Measure(int nTrials = 100000)
         {
-            return Result();
+            return nTrials;
         }
+
     }; // namespace Timer
 
-} // namespace SpikeTester
+} // namespace Spike

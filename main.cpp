@@ -1,8 +1,20 @@
 #include <iostream>
-#include <SpikeTester.h>
+#include <cmath>
+#include <Timer/Timer.h>
+
+// void MyMethodToTest(int n)
+// {
+//     for (int i = 0; i < n; ++i)
+//     {
+//         int x = -5;
+//         int y = abs(x);
+//         int z = sqrt(y);
+//     }
+// }
 
 int main()
 {
-    std::cout << SpikeTester::Timer::GetResult().x << std::endl;
+    // MyMethodToTest(1e7);
+
     return 0;
 }
