@@ -4,8 +4,8 @@
 
 namespace Spike
 {
-    // A utility storing the results of a time-performance test.
-    template <typename T>
+    // A utility struct storing the results of a time-performance test.
+    template <typename T = void>
     struct Result
     {
         Result(const T &value, const Duration &duration)
@@ -17,7 +17,7 @@ namespace Spike
         const Duration Interval;
     };
 
-    // A utility storing the results of a time-performance test.
+    // A utility struct storing the results of a time-performance test.
     template <>
     struct Result<void>
     {
